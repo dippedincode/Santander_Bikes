@@ -6,11 +6,11 @@ end
 
 RSpec.describe DockingStation.new.release_bike do
   it { should be }
-    end
+end
 
 RSpec.describe DockingStation.new.release_bike.working? do
-      it { should be_true }
-        end
+    it { should be true }
+end
 
 # RSpec.describe DockingStation do
 #   context 'bike creation' do
