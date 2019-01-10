@@ -3,8 +3,11 @@ require 'bike'
 
 describe DockingStation do
   it "should release a bike" do
-    is_expected.to respond_to(:release_bike)
-    expect(subject.release_bike).to be_kind_of(Bike)
+    if subject.bike_arr.empty?
+      expect { subject.release_bike }.to raise_error('No bikes left')
+    else
+      expect(subject.release_bike).to be_kind_of(Bike)
+    end
   end
 
   it "should dock a bike" do
@@ -14,6 +17,5 @@ describe DockingStation do
   it "should tell me that there is a bike" do
     expect(subject.dock(Bike.new)).not_to be :empty
   end
-
 
 end
