@@ -10,9 +10,9 @@ class DockingStation
 
   def release_bike
     if @bike_arr.empty?
-      raise ArgumentError.new('No bikes left')
+      raise 'No bikes left'
     else
-      Bike.new
+      @bike_arr.pop
     end
   end
 
