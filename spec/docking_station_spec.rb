@@ -1,4 +1,5 @@
 require 'docking_station'
+<<<<<<< HEAD
 require 'bike'
 
 describe DockingStation do
@@ -33,3 +34,17 @@ describe DockingStation do
   end
 
 end
+=======
+
+RSpec.describe DockingStation do
+    it { is_expected.to respond_to :release_bike }
+end
+
+RSpec.describe DockingStation.new.release_bike do
+  it { should be }
+end
+
+RSpec.describe DockingStation.new.release_bike.working? do
+    it { should be true }
+end
+>>>>>>> 87b80731c44a5b5146a2c51808c6a73c769e6b06
