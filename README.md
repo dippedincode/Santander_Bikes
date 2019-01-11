@@ -1,4 +1,4 @@
-# Santander Bikes (was Boris Bikes)
+Boris Bikes
 
 ## Background Info
 
