@@ -1,2 +1,27 @@
-## Boris Bikes
-This program will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make a network of docking stations and bikes that anyone can use.
+# Boris Bikes
+
+## Background Info
+
+This is a program to emulate all the docking stations, bikes and infrastructure and help TFL.
+
+## Motivation
+
+There are several motivating factors including:
+
+- Learning to test-drive
+- Use object-oriented programming
+- Practice pair programming
+
+## Tech/Framework used
+
+### Built with
+
+* [Ruby](https://www.ruby-lang.org/en/)
+
+
+## Credits
+
+1. David Mears
+2. Debora Piu
+3. Diptis Halder
+4. Jiseong Park
